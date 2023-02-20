@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T07:36:30.588Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="T7XhPZbba_PPJPj_d2tv" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T07:45:15.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SlPbOZRxivpt1Lmy0CZZ" version="20.8.20" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Great Ameria" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="170" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="180" y="70" width="100" height="550" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="Odessa" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="390" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="390" y="70" width="100" height="550" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="430" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
-          <mxGeometry x="-175" y="80" width="10" height="190" as="geometry" />
+          <mxGeometry x="-165" y="80" width="10" height="430" as="geometry" />
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-1" value="SEEBURGER" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="600" y="70" width="100" height="300" as="geometry" />
+          <mxGeometry x="600" y="70" width="100" height="550" as="geometry" />
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="JrmO6Uh9kv4hZH2bxhIH-1">
-          <mxGeometry x="45" y="80" width="10" height="170" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="430" as="geometry" />
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-4" value="POST Async Create Credit App" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" source="JrmO6Uh9kv4hZH2bxhIH-2">
           <mxGeometry x="-0.0476" y="-10" relative="1" as="geometry">
@@ -42,13 +42,74 @@
             <mxPoint x="450" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="670" as="targetPoint" />
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-6" value="POST Authentication&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="aM9ryv3xv72pqoxQDRHE-2">
+          <mxGeometry x="-0.0476" y="-10" relative="1" as="geometry">
+            <mxPoint x="435" y="210" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="505" y="670" />
+              <mxPoint x="300" y="210" />
             </Array>
-            <mxPoint x="580" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-7" value="Auth Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="345" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="345" />
+              <mxPoint x="545.5" y="344.5" />
+            </Array>
+            <mxPoint x="635" y="344.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-8" value="POST Credit Application API" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0476" y="-10" relative="1" as="geometry">
+            <mxPoint x="435" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="280" />
+            </Array>
+            <mxPoint x="240" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-9" value="APP ID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="300.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345.5" y="300.5" />
+              <mxPoint x="360.5" y="380.5" />
+            </Array>
+            <mxPoint x="240" y="300.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-10" value="POST Authentication&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0769" y="10" relative="1" as="geometry">
+            <mxPoint x="450" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="510" y="320" />
+            </Array>
+            <mxPoint x="645" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-11" value="Auth Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345.5" y="230" />
+              <mxPoint x="360.5" y="310" />
+            </Array>
+            <mxPoint x="240" y="230" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-15" value="POST&amp;nbsp; Update Credit APP&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0769" relative="1" as="geometry">
+            <mxPoint x="450" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="510" y="380" />
+            </Array>
+            <mxPoint x="645" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
