@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-20T07:45:15.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="SlPbOZRxivpt1Lmy0CZZ" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-20T08:28:25.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="5JRiY4LFcDZJ1fPfqPx-" version="20.8.20" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -53,16 +53,17 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-7" value="Auth Token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="345" as="targetPoint" />
+          <mxGeometry x="-0.0782" y="-5" relative="1" as="geometry">
+            <mxPoint x="450" y="425" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="550" y="345" />
-              <mxPoint x="545.5" y="344.5" />
+              <mxPoint x="550" y="425" />
+              <mxPoint x="545.5" y="424.5" />
             </Array>
-            <mxPoint x="635" y="344.5" as="sourcePoint" />
+            <mxPoint x="635" y="424.5" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-8" value="POST Credit Application API" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-8" value="POST Async Credit Application API" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0476" y="-10" relative="1" as="geometry">
             <mxPoint x="435" y="280" as="sourcePoint" />
             <Array as="points">
@@ -83,12 +84,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-10" value="POST Authentication&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0769" y="10" relative="1" as="geometry">
-            <mxPoint x="450" y="320" as="sourcePoint" />
+          <mxGeometry x="0.0256" y="10" relative="1" as="geometry">
+            <mxPoint x="450" y="400" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="510" y="320" />
+              <mxPoint x="510" y="400" />
             </Array>
-            <mxPoint x="645" y="320" as="targetPoint" />
+            <mxPoint x="645" y="400" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -104,13 +105,44 @@
         </mxCell>
         <mxCell id="JrmO6Uh9kv4hZH2bxhIH-15" value="POST&amp;nbsp; Update Credit APP&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0769" relative="1" as="geometry">
-            <mxPoint x="450" y="380" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="510" y="380" />
+              <mxPoint x="510" y="460" />
             </Array>
-            <mxPoint x="645" y="380" as="targetPoint" />
+            <mxPoint x="645" y="460" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-17" value="GET&amp;nbsp; Credit Application Status" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;startArrow=none;" edge="1" parent="1" source="JrmO6Uh9kv4hZH2bxhIH-16">
+          <mxGeometry x="-0.0256" y="-10" relative="1" as="geometry">
+            <mxPoint x="435" y="360" as="sourcePoint" />
+            <Array as="points" />
+            <mxPoint x="240" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-18" value="Status&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="380.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="345.5" y="380.5" />
+              <mxPoint x="360.5" y="460.5" />
+            </Array>
+            <mxPoint x="240" y="380.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-19" value="" style="html=1;verticalAlign=bottom;endArrow=none;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1" target="JrmO6Uh9kv4hZH2bxhIH-16">
+          <mxGeometry x="-0.0256" y="-10" relative="1" as="geometry">
+            <mxPoint x="435" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="300" y="360" />
+            </Array>
+            <mxPoint x="240" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JrmO6Uh9kv4hZH2bxhIH-16" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/management_governance/Scheduler_Job_Collections.svg;" vertex="1" parent="1">
+          <mxGeometry x="409.5" y="350" width="25.5" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
