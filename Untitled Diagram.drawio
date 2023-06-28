@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:35:22.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="l-p9r4Zr84-qUM6UWZcZ" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:39:50.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xCIQZBviOvqw_EEAXYdF" version="21.4.0" type="github">
   <diagram name="Page-1" id="_VYA6GNSWTRO3mJRv7M0">
     <mxGraphModel dx="934" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-7" value="Generic Integration Component For Auth Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="295" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <object label="" No="" id="jWgHVI19yJFmfZQgVaKP-11">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-9">
@@ -39,7 +39,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-9" value="Auth success?&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="305" y="460" width="100" height="100" as="geometry" />
+          <mxGeometry x="305" y="660" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-12" value="Failure Response" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="60" width="100" height="60" as="geometry" />
@@ -49,34 +49,40 @@
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="580" as="targetPoint" />
+            <mxPoint x="520" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-15" value="GenericIntegration Component For Ratecard Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="295" y="590" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="480" as="targetPoint" />
+            <mxPoint x="520" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-19" value="GenericIntegration Component For Monthly Pricing Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-20" target="jWgHVI19yJFmfZQgVaKP-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-20" value="Generic Integration Component Call to&amp;nbsp; Ingram To send the pricing data&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-24" value="Success Response" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="670" y="410" width="100" height="60" as="geometry" />
+          <mxGeometry x="670" y="610" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jWgHVI19yJFmfZQgVaKP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-26" target="jWgHVI19yJFmfZQgVaKP-7">
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-26" target="jWgHVI19yJFmfZQgVaKP-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jWgHVI19yJFmfZQgVaKP-26" value="Read Funder Configurations&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="295" y="270" width="120" height="50" as="geometry" />
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-26" value="Read Funder Configurations and Identify the Funder Workflow&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="270" width="115" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-29" target="jWgHVI19yJFmfZQgVaKP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-29" value="Generic Work Flow" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="315" y="385" width="95" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
