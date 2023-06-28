@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-28T07:32:25.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="dVMiPjp5_cgquC6ZziVX" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-28T07:35:22.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="l-p9r4Zr84-qUM6UWZcZ" version="21.4.0" type="github">
   <diagram name="Page-1" id="_VYA6GNSWTRO3mJRv7M0">
-    <mxGraphModel dx="794" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="934" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
         <mxCell id="jWgHVI19yJFmfZQgVaKP-3" value="Ingram Price Request Call&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="295" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jWgHVI19yJFmfZQgVaKP-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-5" target="jWgHVI19yJFmfZQgVaKP-7">
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-5" target="jWgHVI19yJFmfZQgVaKP-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-5" value="Parse Request &amp;amp;&amp;nbsp;&amp;nbsp;&lt;br&gt;Identify Funder&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
@@ -26,7 +26,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-7" value="Generic Integration Component For Auth Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="295" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="370" width="120" height="60" as="geometry" />
         </mxCell>
         <object label="" No="" id="jWgHVI19yJFmfZQgVaKP-11">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-9">
@@ -39,7 +39,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-9" value="Auth success?&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="305" y="350" width="100" height="100" as="geometry" />
+          <mxGeometry x="305" y="460" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-12" value="Failure Response" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="140" y="60" width="100" height="60" as="geometry" />
@@ -49,28 +49,34 @@
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="470" as="targetPoint" />
+            <mxPoint x="520" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-15" value="GenericIntegration Component For Ratecard Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="295" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="295" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="520" y="370" as="targetPoint" />
+            <mxPoint x="520" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-19" value="GenericIntegration Component For Monthly Pricing Call" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-20" target="jWgHVI19yJFmfZQgVaKP-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-20" value="Generic Integration Component Call to&amp;nbsp; Ingram To send the pricing data&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="460" y="300" width="120" height="60" as="geometry" />
+          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jWgHVI19yJFmfZQgVaKP-24" value="Success Response" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="670" y="300" width="100" height="60" as="geometry" />
+          <mxGeometry x="670" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jWgHVI19yJFmfZQgVaKP-26" target="jWgHVI19yJFmfZQgVaKP-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jWgHVI19yJFmfZQgVaKP-26" value="Read Funder Configurations&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="270" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
